@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>সিলেট ভ্রমণ গাইড | Tasniya Enterprise Travel Journal</title>
+<meta name="description" content="সিলেটের সেরা ৫টি ভ্রমণ গন্তব্য — রাতারগুল, সাদা পাথর, জাফলং, শাপলা বিল ও বিছানাকান্দি। কীভাবে যাবেন, কখন যাবেন ও গাড়ি ভাড়ার সম্পূর্ণ তথ্য।">
+<style>
+  :root{
+    --tea-green:#1f3d33;
+    --gold:#c8a24a;
+    --cream:#f7f1e3;
+    --stamp-red:#a8323a;
+    --ink:#2b2b26;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--ink);
+    font-family:'Noto Sans Bengali','Hind Siliguri',sans-serif;
+    line-height:1.8;
+  }
+  .wrapper{max-width:820px;margin:0 auto;padding:24px 18px 60px;}
+
+  .ticket-header{
+    background:var(--tea-green);
+    color:var(--cream);
+    border-radius:14px;
+    padding:30px 24px;
+    position:relative;
+    overflow:hidden;
+    border:2px dashed var(--gold);
+    text-align:center;
+  }
+  .eyebrow{
+    color:var(--gold);
+    letter-spacing:2px;
+    font-size:12px;
+    text-transform:uppercase;
+    margin:0 0 10px;
+  }
+  .ticket-header h1{margin:0 0 10px;font-size:26px;line-height:1.35;}
+  .ticket-header p{margin:0;opacity:.9;font-size:14px;}
+
+  h2.section-title{
+    color:var(--tea-green);
+    border-bottom:2px solid var(--gold);
+    padding-bottom:6px;
+    margin-top:40px;
+    font-size:20px;
+  }
+
+  .card-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:18px;
+    margin-top:20px;
+  }
+  @media(min-width:600px){
+    .card-grid{grid-template-columns:1fr 1fr;}
+  }
+
+  .dest-card{
+    background:#fff;
+    border-radius:14px;
+    overflow:hidden;
+    border:1px solid #e3d9bf;
+    display:flex;
+    flex-direction:column;
+    text-decoration:none;
+    color:var(--ink);
+    transition:transform .15s;
+  }
+  .dest-card:hover{transform:translateY(-3px);}
+
+  .card-top{
+    background:var(--tea-green);
+    color:var(--cream);
+    padding:14px 16px;
+    position:relative;
+    border-bottom:3px dashed var(--gold);
+  }
+  .card-icon{font-size:26px;display:block;margin-bottom:6px;}
+  .card-top h3{margin:0;font-size:17px;}
+  .stamp-tag{
+    position:absolute;
+    top:12px; left:14px;
+    font-size:10px;
+    border:1px solid var(--gold);
+    color:var(--gold);
+    padding:2px 8px;
+    border-radius:4px;
+    transform:rotate(-4deg);
+  }
+
+  .card-body{padding:14px 16px 18px;flex:1;display:flex;flex-direction:column;}
+  .card-body p{font-size:14px;margin:0 0 12px;flex:1;}
+  .card-meta{
+    font-size:12px;
+    color:var(--tea-green);
+    margin-bottom:12px;
+  }
+  .card-meta b{color:var(--stamp-red);}
+  .read-link{
+    align-self:flex-start;
+    font-size:13px;
+    font-weight:bold;
+    color:#fff;
+    background:var(--stamp-red);
+    padding:8px 16px;
+    border-radius:20px;
+  }
+
+  .cta-box{
+    background:var(--stamp-red);
+    color:#fff;
+    border-radius:14px;
+    padding:24px;
+    text-align:center;
+    margin:44px 0 10px;
+  }
+  .cta-box h3{margin:0 0 8px;font-size:19px;}
+  .cta-box p{color:#ffe9e9;margin:0 0 16px;font-size:14px;}
+  .cta-btn{
+    display:inline-block;
+    background:var(--gold);
+    color:var(--tea-green);
+    font-weight:bold;
+    padding:12px 28px;
+    border-radius:30px;
+    text-decoration:none;
+  }
+
+  footer{text-align:center;font-size:13px;color:#6b6b60;margin-top:40px;}
+  footer a{color:var(--tea-green);}
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+  <div class="ticket-header">
+    <p class="eyebrow">Tasniya Enterprise — Travel Journal</p>
+    <h1>সিলেটের সবুজ পাহাড়, নীল জল আর পাথুরে পথের গল্প</h1>
+    <p>গাড়ি ভাড়া ও ট্যুর প্ল্যান নিয়ে সিলেটের সেরা ৫টি গন্তব্যের বিস্তারিত গাইড</p>
+  </div>
+
+  <h2 class="section-title">গন্তব্যসমূহ</h2>
+
+  <div class="card-grid">
+
+    <a class="dest-card" href="ratargul.html">
+      <div class="card-top">
+        <span class="stamp-tag">জলাবন</span>
+        <span class="card-icon">🌳</span>
+        <h3>রাতারগুল সোয়াম্প ফরেস্ট</h3>
+      </div>
+      <div class="card-body">
+        <p>বাংলাদেশের একমাত্র প্রাকৃতিক জলাবন। নৌকায় গাছের সারির মধ্য দিয়ে ভেসে চলার এক অবিস্মরণীয় অভিজ্ঞতা, যাকে বলা হয় "বাংলার আমাজন"।</p>
+        <div class="card-meta">সিলেট শহর থেকে <b>~২৬ কিমি</b> | সময় ~১ ঘণ্টা</div>
+        <span class="read-link">বিস্তারিত পড়ুন →</span>
+      </div>
+    </a>
+
+    <a class="dest-card" href="sada-pathor.html">
+      <div class="card-top">
+        <span class="stamp-tag">নদী</span>
+        <span class="card-icon">🏔️</span>
+        <h3>সাদা পাথর (ভোলাগঞ্জ)</h3>
+      </div>
+      <div class="card-body">
+        <p>মেঘালয় থেকে নেমে আসা ধলাই নদীর স্বচ্ছ জল আর সাদা পাথরের বিছানা — পাহাড় আর নদীর এক অপূর্ব মিলনস্থল, ছবির মতো সুন্দর দৃশ্য।</p>
+        <div class="card-meta">সিলেট শহর থেকে <b>~৩৫ কিমি</b> | সময় ~১.৫ ঘণ্টা</div>
+        <span class="read-link">বিস্তারিত পড়ুন →</span>
+      </div>
+    </a>
+
+    <a class="dest-card" href="jaflong.html">
+      <div class="card-top">
+        <span class="stamp-tag">সীমান্ত</span>
+        <span class="card-icon">⛰️</span>
+        <h3>জাফলং</h3>
+      </div>
+      <div class="card-body">
+        <p>পিয়াইন নদীর নীল জল, পাথর কোয়ারি এবং একদম কাছ থেকে মেঘালয় পাহাড় দেখার সুযোগ। সিলেটের সবচেয়ে জনপ্রিয় ভ্রমণ গন্তব্য।</p>
+        <div class="card-meta">সিলেট শহর থেকে <b>~৬০ কিমি</b> | সময় ~২-২.৫ ঘণ্টা</div>
+        <span class="read-link">বিস্তারিত পড়ুন →</span>
+      </div>
+    </a>
+
+    <a class="dest-card" href="shapla-bil.html">
+      <div class="card-top">
+        <span class="stamp-tag">মৌসুমি</span>
+        <span class="card-icon">🪷</span>
+        <h3>শাপলা বিল (ডিবির হাওর)</h3>
+      </div>
+      <div class="card-body">
+        <p>জৈন্তাপুরের সীমান্তঘেঁষা বিলে ভোরবেলা লাল-সাদা শাপলার মেলা। হেমন্তের শুরুতে (অক্টোবর-নভেম্বর) দেখার সেরা সময়।</p>
+        <div class="card-meta">সিলেট শহর থেকে <b>~২৪ কিমি</b> | সময় ~৪৫ মিনিট</div>
+        <span class="read-link">বিস্তারিত পড়ুন →</span>
+      </div>
+    </a>
+
+    <a class="dest-card" href="bichanakandi.html" style="grid-column:1/-1;">
+      <div class="card-top">
+        <span class="stamp-tag">পাথুরে উপত্যকা</span>
+        <span class="card-icon">🌊</span>
+        <h3>বিছানাকান্দি</h3>
+      </div>
+      <div class="card-body">
+        <p>মেঘালয়ের পাহাড়ের কোল ঘেঁষে পাথুরে নদীর বিছানা — চারপাশে মেঘে ঢাকা পাহাড় আর ঝর্ণার জল এসে মিশেছে এখানে। নৌকায় ঘুরে দেখার মতো এক স্বর্গীয় জায়গা।</p>
+        <div class="card-meta">সিলেট শহর থেকে <b>~৫৫ কিমি</b> | সময় ~২ ঘণ্টা</div>
+        <span class="read-link">বিস্তারিত পড়ুন →</span>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="cta-box">
+    <h3>আপনার ভ্রমণের জন্য গাড়ি বুক করুন</h3>
+    <p>Allion, Esquire Hybrid, Noah ও Hiace Super GL — প্রয়োজন অনুযায়ী বেছে নিন। WhatsApp-এ সহজ বুকিং, bKash/Nagad/ব্যাংকে পেমেন্ট।</p>
+    <a class="cta-btn" href="https://wa.me/8801715574437" target="_blank">WhatsApp-এ বুকিং করুন</a>
+  </div>
+
+  <footer>
+    <p>Tasniya Enterprise | <a href="https://tasniyaenterprise.com">tasniyaenterprise.com</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
